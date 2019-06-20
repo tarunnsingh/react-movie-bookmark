@@ -1,0 +1,36 @@
+.Login{
+    width:30rem;
+   
+    padding:2rem;
+    margin: auto;
+  }
+  .Login form{
+    width: 400px;
+   margin:2rem auto;
+  }
+  .Login .primary_button{
+   
+    margin: 1rem auto;
+  }
+  .Login .link{
+    text-align: center;
+  }
+  
+  .Login i{
+    width:50px;
+    height:50px;
+  
+  }
+
+  @media screen and (max-width: 900px) {
+    .Login{
+      width:80%;
+      padding:2rem 0rem;
+      margin:1rem auto !important;
+    }
+    .Login form{
+  
+      width: 90%;
+     margin:1rem auto;
+    }
+  }

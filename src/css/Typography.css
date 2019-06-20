@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('../fonts/Cocogoose.ttf');
+  }
+
+body{
+  font-family: Montserrat;
+  font-weight: 300; 
+  letter-spacing: 0.028rem;
+  color:#1D1F21;
+}
+
+.secondary_text{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 22px;
+    color: #8598a5;
+    margin-bottom: 8px;
+}
+
+.heading{
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 44px;
+  letter-spacing: 0.02em;
+  line-height: 58px;
+  margin-bottom: 8px;
+  color: #1d1f21;
+  
+}
+input{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  color: #1d1f21;
+  margin-bottom: 8px;
+
+}
+button,input[type="submit"]{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.highlighted_text{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  color:#6c63ff !important;
+  margin-bottom: 8px;
+}
+label{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  color: #8598a5;
+  margin-bottom: 2px;
+}
+.link,th{
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  text-align: left;
+  color: #1d1f21;
+  margin:1rem 0rem;
+ 
+  cursor: pointer;
+}
+
+.lead{
+ 
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+  color: #8598a5;
+  margin: 1rem 0rem;
+}
+i{
+  max-width:50px;
+  max-height:50px;
+  color: #1D1F21;
+  padding:0rem 1rem; 
+}
+.name{
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+  
+
+}
+.small_button{
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+  color: #fff;
+
+}
+
+.srv-validation-message{
+  font-size: .7rem;
+  color:red;
+  padding-bottom:8px;
+}

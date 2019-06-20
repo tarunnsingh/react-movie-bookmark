@@ -1,0 +1,112 @@
+.movieList{
+    margin-top:1rem;
+    
+    text-align: center;
+}
+.movieThumbnail{
+    display: inline-block;
+    padding:1rem .7rem;
+    text-align: center;
+    width:15%;
+    
+  
+    
+}
+
+.movieThumbnail img{
+    width:80% !important;
+    padding:0rem 0rem;
+    max-height:250px;
+    border-radius:10px;
+   
+    
+}
+.movieThumbnail img:hover{
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.2)
+}
+.movieThumbnail h5{
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.movieDetails{
+   padding:1rem;
+   
+    width:80%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.movieDetails .link i{
+    widows: 50px;
+    height: 50px;
+}
+.movieDetails .wrapper{
+  
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.movieDetails aside{
+    flex:3;
+}
+.movieDetails aside img{
+    width: 90%;
+    z-index: 5;
+    border-radius:10px;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.3)
+}
+.movieDetails main{
+    flex:7;
+    margin-left:4rem;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.movieDetails main *{
+    margin:1rem 0rem;;
+}
+.movieDetails ul li{
+    list-style: none;
+}
+
+.movieDetails .primary_button{
+    padding-right:1rem;
+}
+.movieDetails .primary_button i{
+    color:white;
+}
+table *{
+    padding: .3rem 0rem;
+}
+table td{
+    padding:0rem 2rem;
+}
+@media screen and (max-width: 900px) {
+    .movieThumbnail{
+        width: 42%;
+    }
+    .movieThumbnail img{
+        width: 100% !important;
+    }
+
+    .movieDetails{
+        margin-top: 1rem;
+    }
+    .movieDetails .wrapper{
+        display: block;
+        width: 100%;
+    }
+    .movieDetails aside{
+        text-align: center;
+    }
+    .movieDetails main{
+    margin: 1rem;
+    }
+    .movieDetails .heading{
+        font-size:1.7rem;
+    }
+   }

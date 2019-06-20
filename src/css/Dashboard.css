@@ -1,0 +1,40 @@
+.Dashboard{
+    width: 100%;
+    height: 100vh;
+}
+.Dashboard header{
+    background-color:#6c63ff;
+    color:white;
+}
+
+.Dashboard header .wrapper{
+    padding: 2rem 0rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+.profile{
+    flex:3;
+    display:flex;
+    color:white;
+    
+}
+.profile div{
+    padding:.5rem 1rem;
+}
+.Dashboard .search{
+    flex:7
+}
+
+@media screen and (max-width: 900px) {
+ .Dashboard header .wrapper{
+     display: block;
+     padding: 1rem 0rem;
+   
+ }
+ .Dashboard .search{
+     padding:1rem 0;
+ }
+}
