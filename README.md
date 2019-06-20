@@ -26,7 +26,7 @@ React movie bookmark is a simple, responsive react app that uses Firebase for ba
 
 If you would like to download the code and try it for yourself:
 
-1. Clone the repo: `git@github.com:SKempin/react-movie-bookmark.git`
+1. Clone the repo
 2. `cd react-movie-bookmark`
 2. Install packages: `npm install` and `bower install`
 3. Replace Firebase config object and omdb api key
